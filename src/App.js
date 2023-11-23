@@ -91,7 +91,7 @@ function App() {
           <div className="inp">
             <input type="text" placeholder='Send a message' value={input} onKeyDown={handleEnter} onChange={(e)=>{setInput(e.target.value)}}/><button className="send" onClick={handleSend}><img src={sendBtn} alt="Send" /></button>
           </div>
-          <p> This is just clone of the chatGPT using react html css and OpenAPI</p>
+          <p> This is just clone o the chatGPT using react html css and OpenAPI</p>
           </div>
       </div>
     </div>
